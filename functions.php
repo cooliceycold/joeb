@@ -40,9 +40,7 @@ function themeConfig($form)
 			<div class="joe_config__aside">
 				<div class="logo">Joe修改版 v<?= JOE_VERSION ?></div>
 				<ul class="tabs">
-					<li class="item" data-current="joe_notice">最新公告</li>
 					<li class="item" data-current="joe_global">全局设置</li>
-					<li class="item" data-current="joe_safe">安全设置</li>
 					<li class="item" data-current="joe_image">图片设置</li>
 					<li class="item" data-current="joe_post">文章设置</li>
 					<li class="item" data-current="joe_aside">侧栏设置</li>

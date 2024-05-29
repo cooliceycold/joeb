@@ -1,0 +1,16 @@
+{
+    "require": {
+        "zoujingli/ip2region": "^2.0",
+        "phpmailer/phpmailer": "^6.9",
+        "network/http": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "path", 
+            "url": "network/http",
+            "versions": {
+                "network/http": "dev-master"
+            }
+        }
+    ]
+}

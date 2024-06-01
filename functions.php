@@ -58,7 +58,6 @@ function themeConfig($form)
 				<?php require_once('public/backup.php'); ?>
 			</div>
 		</div>
-		<div class="joe_config__notice">请求数据中...</div>
 	<?php
 
 	// 全局设置

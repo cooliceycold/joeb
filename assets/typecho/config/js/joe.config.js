@@ -50,17 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
         notice.style.display = "block";
         form.style.display = "none";
     }
-    $.ajax({
-        url: "https://raw.githubusercontent.com/jd82k/Joe/master/NOTICE",
-        type: "get",
-        dataType: "html",
-        success: function(data){
-            notice.innerHTML = data;
-        },
-        error: function(){
-            notice.innerHTML = "请求失败！";
-        }
-    });
+
     //模拟form表单提交打开新的页面
     // function open_page(url, param = {}) {
     //     var form = '<form action="' + url + '"  target="_blank"  id="windowOpen" style="display:none">';
